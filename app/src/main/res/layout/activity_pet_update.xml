@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PetUpdateActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="30dp"
+                android:text="Update Pet"
+                android:gravity="center"
+                android:textStyle="bold"/>
+
+
+            <ImageView
+                android:id="@+id/updateimage"
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:src="@drawable/baseline_file_upload_24" />
+
+            <EditText
+                android:id="@+id/updateCame"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Customer Name"
+                android:textSize="30dp" />
+
+            <EditText
+                android:id="@+id/updatetype"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="30dp"
+                android:hint="Type" />
+            <EditText
+                android:id="@+id/updatebreed"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="30dp"
+                android:hint="Breed" />
+            <EditText
+                android:id="@+id/updatename"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="30dp"
+                android:hint="Name" />
+
+
+            <EditText
+                android:id="@+id/updateHeigth"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="30dp"
+                android:hint="Heigth" />
+            <EditText
+                android:id="@+id/updateWigth"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="30dp"
+                android:hint="Wigth" />
+
+            <EditText
+                android:id="@+id/updateage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="30dp"
+                android:hint="Age" />
+            <EditText
+                android:id="@+id/updateaddress"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="30dp"
+                android:hint="Address" />
+            <EditText
+                android:id="@+id/updatenote"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="30dp"
+                android:hint="note" />
+
+            <Button
+                android:id="@+id/updateBtn1"
+                android:layout_width="347dp"
+                android:layout_height="76dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="32dp"
+                android:gravity="center"
+                android:background="@color/Maincolor"
+                android:text="Update Pet"
+                android:textSize="50dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:tint="@color/Maincolor"
+                tools:layout_editor_absoluteY="151dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

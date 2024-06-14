@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="30dp"
+                android:text="Add Pet"
+                android:gravity="center"
+                android:textStyle="bold"/>
+
+
+            <ImageView
+                android:id="@+id/addimage"
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:src="@drawable/baseline_file_upload_24" />
+            <EditText
+                android:id="@+id/addCame"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="30dp"
+                android:hint="Customer Name" />
+
+            <EditText
+                android:id="@+id/addtype"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="30dp"
+                android:hint="Type" />
+            <EditText
+                android:id="@+id/addbreed"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="30dp"
+                android:hint="Breed" />
+            <EditText
+                android:id="@+id/addname"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="30dp"
+                android:hint="Name" />
+
+
+            <EditText
+                android:id="@+id/addHeigth"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="30dp"
+                android:hint="Heigth" />
+            <EditText
+                android:id="@+id/addWigth"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="30dp"
+                android:hint="Wigth" />
+
+            <EditText
+                android:id="@+id/addage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="30dp"
+                android:hint="Age" />
+            <EditText
+                android:id="@+id/addaddress"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="30dp"
+                android:hint="Address" />
+            <EditText
+                android:id="@+id/addnote"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="30dp"
+                android:hint="note" />
+
+            <Button
+                android:id="@+id/addBtn1"
+                android:layout_width="347dp"
+                android:layout_height="76dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="32dp"
+                android:gravity="center"
+                android:background="@color/Maincolor"
+                android:text="Add Pet"
+                android:textSize="50dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:tint="@color/Maincolor"
+                tools:layout_editor_absoluteY="151dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
